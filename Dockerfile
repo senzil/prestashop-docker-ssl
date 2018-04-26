@@ -1,4 +1,4 @@
-FROM prestashop
+FROM prestashop/prestashop
 LABEL maintainer="Pablo González <pablodgonzalez@gmail.com>"
 
 RUN a2enmod ssl
